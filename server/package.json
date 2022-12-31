@@ -1,0 +1,27 @@
+{
+  "name": "img-generator-backend",
+  "version": "1.0.0",
+  "description": "Image generator from text using open AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "devStart": "nodemon index"
+  },
+  "keywords": [
+    "OpenAI",
+    "Image",
+    "generator",
+    "node"
+  ],
+  "author": "Hariprasad",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
